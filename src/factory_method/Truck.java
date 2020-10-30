@@ -1,14 +1,15 @@
-package factory;
+package factory_method;
 
-public class Motorbike implements Vehicle {
+public class Truck implements Vehicle{
 	
-	public Motorbike(int nbWheel) {
+	public Truck(int nbWheel)
+	{
 		this.nbWheel = nbWheel;
 	}
 
 	@Override
 	public void drive() {
-		System.out.println("I am a Motorbike and I have " + this.nbWheel + " wheel(s). I drive !!!");
+		System.out.println("I am a Truck and I have " + this.nbWheel + " wheel(s). I drive !!!");
 		
 	}
 	
